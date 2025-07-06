@@ -5,7 +5,8 @@ import { AiOutlineUserAdd } from "react-icons/ai";
 
 const Navbar = () => {
   return (
-     <div className="flex justify-between border-black border-b-[1px] mt-10 ml-64">
+    <div className=" border-black border-b-[1px] w-full"> 
+     <div className="flex justify-between mt-10 ml-64 ">
        <div>
         <input 
          className="border-black border-[1px] mb-5 px-4 py-2"
@@ -27,7 +28,9 @@ const Navbar = () => {
        </ul>
        </div>
      </div>
+    </div>
   )
 }
-
 export default Navbar;
+
+
