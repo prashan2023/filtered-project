@@ -6,7 +6,7 @@ const Card =({shoe})=>{
     return(
         <div className="border-[1px] mr-10 mb-10 p-[10px]  w-[220px]">
             <div className="w-[180px] h-[150px]">
-                <img src={img}/>
+                <img src={img} alt={title}/>
             </div>
             <div>
                 <h2 className="text-lg font-bold pb-3">{title}</h2>
